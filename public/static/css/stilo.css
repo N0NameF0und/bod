@@ -1,0 +1,174 @@
+body{
+    overflow-x: hidden;
+    background-size: cover;
+    -webkit-background-size:cover;
+    
+}
+.wrapper{
+    position:relative;
+    margin: 0%;
+    padding: 150px 140px;
+    clear: both;
+    margin-top: -156px;
+    width: 250px;
+}
+.menu-area{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    background: #1771e7;
+    width: 250px;
+   
+}
+.menu-area li{
+    position: relative;
+}
+.menu-area li a {
+    text-align: center;
+    height: 20px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+}
+.menu-area li a strong{
+    display: block;
+    
+    font: 550 1em Tahoma, Arial, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.menu-area li:hover >a{
+    color:black;
+}
+.menu-area li ul {
+    background: #1771e7;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    z-index: 999;
+    left: 280px;
+    top: 0;
+    list-style: none;
+    position: absolute;
+    height:auto ;
+    min-width: 250px;
+    padding: 0;
+    margin: 0;
+}
+.menu-area li:hover> ul{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    left: 250px;
+
+}
+.menu-area li ul a{
+    font: 550 1em Tahoma, Arial, Verdana, sans-serif;
+  
+    font-size: 20px;
+    letter-spacing:3px;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    height: auto;
+}
+/* botones*/
+button {
+	font: 550 1em Tahoma, Arial, Verdana, sans-serif;
+	color: #fff; background-color: #217cf3;
+
+	border-top: 1px solid #004370;
+	border-left: 1px solid #004370;
+	cursor: pointer;
+}
+
+button {
+	width: auto; 
+	overflow: visible; 
+    padding: 3px 8px 2px 6px;
+    border-style: none;
+}
+
+button[type] {
+	padding: 4px 8px 4px 6px;
+}
+button img{
+    height: 15px ;
+    width: 15px ;
+}
+button:hover{
+    color:black;
+}
+/*consulta*/
+.consulta{
+    border-style: groove;
+    height: 20px;
+}
+/*barra*/
+.barra{
+    
+    width:925px;
+    padding: 0px 400px;
+    
+}
+
+/*Año*/
+.fecha{
+    font: 500 1em Tahoma, Arial, Verdana, sans-serif; 
+    
+    width: 245px;
+    padding: 0px 140px;
+    margin-top: -120px;
+}
+.fechas{
+    float: right;
+    position: relative;
+    padding: 0px 5px;
+}
+
+/*tabla*/
+#main-container{
+	margin: 0px ;
+    width: 400px;
+   
+    padding: 5px 400px;
+    
+    
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+    width: 912px;
+    position:absolute;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: black;
+	border-bottom: solid 5px #217cf3;
+	color: white;
+}
+
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #535353;
+	color: white;
+}
+caption{
+    background-color: black;
+	border-bottom: solid 5px #217cf3;
+    color: white; 
+}
